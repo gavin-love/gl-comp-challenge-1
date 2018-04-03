@@ -1,0 +1,499 @@
+body, html {
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 0;
+  cursor: url(images/burns.png), auto;
+}
+
+body {
+  border: 15px solid black;
+  width: 100%;
+}
+
+.main {
+  display: inline-block;
+  width: 60%;
+}
+
+.hamburger {
+  display: none;
+}
+
+.dots {
+  position: absolute;
+  left: 85%;
+  top: -25px;
+}
+
+.right-arrow,
+.left-arrow {
+  width: 75px;
+  height: 75px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 400px;
+  left: 95%;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 400px;
+  left: 6px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flanders-header {
+  width: 300px;
+  margin: 50px 0 0 30px;
+}
+
+.flanders-header:hover {
+
+}
+
+.flanders-bio {
+  margin: 10px 0 0 30px;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: black;
+}
+
+.bio-resume-contact {
+  background-color: rgb(161, 174, 249, .5);
+  height: 193px;
+}
+
+.resume-button {
+  margin: 0 0 0 30px;
+  height: 40px;
+  width: 120px;
+}
+
+.resume-button,
+.contact-button {
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  border: 3px solid black;
+  color: black;
+  font-size: 1em;
+  outline: none;
+}
+
+.resume-button:hover,
+.contact-button:hover {
+  border: 3px solid #fff;
+  background-color:   #8899ff;
+  color: white;
+}
+
+.resume-img {
+  height: 17px;
+  margin-right: 4px;
+}
+
+.contact-img {
+  height: 17px;
+  margin-right: 2px;
+}
+
+.contact-button {
+  margin: 20px 0 0 5px;
+}
+
+.buttons {
+  background-color: transparent;
+  padding: 0;
+  position: relative;
+  top: 185px;
+  left: 80px;
+  margin: 15px;
+  border: none;
+  display: none;
+}
+
+.boxes {
+  height: 300px;
+  width: 33.33%;
+  min-width: 250px;
+}
+
+.boxes:hover .buttons {
+  display: block;
+}
+
+.box-one {
+  height: 300px;
+  width: 66.66%;
+  background-color: rgb(136,153,255, .8);
+  background-image: url(images/homer.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position-x: center;
+  background-position-y: 113px;
+}
+
+.box-two {
+  background-color: #ffbb22;
+  background-image: url(images/flanders1.png), url(images/icon11black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 155px, 100px;
+  background-position-y: 60px, 200px;
+}
+
+.box-two:hover {
+  background-image: url(https://media.giphy.com/media/hGB5RMigOfkY0/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.box-three {
+  background-color: #11bb66;
+  background-image: url(images/flanders2.png), url(images/icon2black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 155px, 100px;
+  background-position-y: 40px, 200px;
+}
+
+.box-three:hover {
+  background-image: url(https://media.giphy.com/media/yGrf48Mki69H2/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.box-four {
+  background-color: #ff4411;
+  background-image: url(images/flanders3.png), url(images/icon3black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 155px, 100px;
+  background-position-y: 40px, 200px;
+}
+
+.box-four:hover {
+  background-image: url(https://media.giphy.com/media/ayCW8HIsmRYqc/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.box-five {
+  background-color: #11bb66;
+  background-image: url(images/flanders4.png), url(images/icon4black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 155px, 100px;
+  background-position-y: 40px, 200px;
+}
+
+.box-five:hover {
+  background-image: url(https://media.giphy.com/media/FwJuwEtVe0vDi/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.box-six {
+  background-color: #ff4411;
+  background-image: url(images/flanders5.png), url(images/icon5black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 155px, 100px;
+  background-position-y: 40px, 200px;
+}
+
+.box-six:hover {
+  background-image: url(https://media.giphy.com/media/10mV8NGOxtLOes/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.box-seven {
+  background-color: #11bb66;
+  background-image: url(images/flanders6.png), url(images/icon10black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 155px, 100px;
+  background-position-y: 40px, 200px;
+}
+
+.box-seven:hover {
+  background-image: url(https://media.giphy.com/media/aacOScXMXvjpK/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.box-eight {
+  background-color: #ff4411;
+  background-image: url(images/flanders7.png), url(images/icon7black.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 145px, 100px;
+  background-position-y: 40px, 200px;
+}
+
+.box-eight:hover {
+  background-image: url(https://media.giphy.com/media/Ocx1lKVq4OPXW/giphy.gif);
+  display: block;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.aside {
+  display: inline-block;
+  width: 35%;
+  max-width: 564px;
+  height: 900px;
+  position: absolute;
+  top: 15px;
+  margin: auto;
+}
+
+.box-nine {
+  padding-top: 40px;
+  height: 825px;
+  background-image: url(images/no-stash.png);
+  background-size: 99% 75%;
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+
+}
+
+.envy {
+  width: 70%;
+  margin: 15px 82px 35px 82px;
+}
+
+@media only screen and (max-width: 1295px) {
+
+    body, html {
+      margin: auto;
+
+    }
+
+    body {
+      width: 100%;
+      margin: auto;
+    }
+
+    .right-arrow {
+      position: absolute;
+      top: 400px;
+      left: 90%;
+      }
+
+    .flex-container {
+      height: 900px;
+      min-width: 500px;
+    }
+    .box-one {
+      width: 100%;
+    }
+
+    .boxes {
+      width: 50%;
+    }
+
+    .box-four {
+      background-color: #11bb66;
+    }
+
+    .box-five {
+      background-color: #ff4411;
+    }
+
+    .box-eight {
+      background-color: #ffbb22;
+    }
+
+    .box-nine {
+      background-size: 85% 70%;
+      background-position: 20% 65%;
+    }
+
+    .main {
+      width: 47%;
+      min-width: 500px;
+      height: 900px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: rgb(136,153,255, .8);
+    }
+
+    .main::-webkit-scrollbar { 
+    display: none; 
+    }
+
+    .aside {
+    width: 50%;
+    max-width: 55%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    html, body {
+      height: 1025px;
+      width: 100%;
+      margin: 0;
+    }
+    
+    .main {
+      width: 100%;  
+    }
+
+    .buttons {
+    top: 185px;
+    left: 33%;
+    }
+
+    .dots,
+    .right-arrow,
+    .left-arrow {
+      display: none;
+    }
+
+    .aside {
+      transform: rotate(90deg);
+      width: 95px;
+      height: 100px;
+      top: 913px;
+      left: 65%;
+    }
+
+    .box-nine {
+      background-size: 492px 499.5px;
+      padding: 0;
+      height: 500px;
+    }
+
+    .envy {
+      display: none;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    body,
+    html {
+      width: 100%;
+      min-width: 100px;
+    }
+
+    .main {
+      width: 100%;
+      min-width: 320px;
+    }
+
+    .flex-container {
+      width: 100%;
+      min-width: 320px;
+    }
+
+    .boxes {
+      width: 50%;
+      min-width: 200px;
+    }
+
+    .box-nine {
+      height: 350px;
+      width: 90px;
+      background-size: 450px 375px;
+    }
+
+    .aside {
+      top: 918px;
+      left: 60%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+  html,
+  body {
+    height: 930px;
+  }
+
+  .hamburger {
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: none;
+    border: none;
+    background-image: url(images/burger.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    position: absolute;
+    left: 20px;
+    outline: none;
+  }
+
+  .hamburger:hover {
+    background-image: url(images/burgerhover.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    position: absolute;
+    left: 20px;
+  }
+
+  .flanders-header {
+    margin: 65px 0 0 30px;
+  }
+
+  .boxes {  
+    width: 100%;
+    min-width: 250px;
+  }
+
+  .box-two {
+    background-color: #11bb66;
+  }
+
+  .box-three {
+    background-color: #ffbb22;
+  }
+
+  .box-six {
+    background-color: #ffbb22;
+  }
+
+  .box-eight {
+      background-color: #ff4411;
+    height: 320px;
+  }
+
+  .bio-resume-contact {
+    height: 205px;
+  }
+
+  .aside,
+  .box-nine,
+  .flanders-bio,
+  .resume-button,
+  .contact-button {
+    display: none;
+  }
+
+  .buttons {
+    top: 185px;
+    left: 33%;
+  }
+}
+
+
